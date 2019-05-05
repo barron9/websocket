@@ -1,0 +1,25 @@
+{
+  "name": "websocketforunity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "now": {
+    "alias": "gmforward"
+  },
+  "scripts": {
+    "start": "nodemon node proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "http-proxy": "^1.17.0",
+    "https": "^1.0.0",
+    "url": "^0.11.0",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
